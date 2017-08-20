@@ -16,11 +16,36 @@
     <link rel="stylesheet" href="{{site.baseurl}}/ehaglin.css">
   </head>
   <body>
-
   <div class="container">
-    <div id="content" class="col-sm-12">
-{{content}}
+
+    <!-- Front page leader -->
+    <div id="leader" class="row">
+      <div id="leader-left" class="col-xs-6">
+        <h1>Elizabeth<br>Rose<br>Haglin</h1>
+        <h3>
+          Graduate Student in Chemistry, UMass Amherst<br>
+          <a href="mailto:ehaglin@gmail.com">ehaglin@gmail.com</a>
+        </h3>
+<!--
+        <div id="leader-name">Elizabeth<br>Rose<br>Haglin</div>
+        <div id="leader-subtitle">
+          Graduate Student in Chemistry, UMass Amherst<br>
+          <a href="mailto:ehaglin@gmail.com">ehaglin@gmail.com</a>
+        </div>
+-->
+      </div>
+      <div id="leader-right" class="col-xs-6">
+        <img id="leader-portrait" src="../elizabeth_haglin.png" class="pull-right img-responsive">
+      </div>
     </div>
+
+    <!-- Front page material -->
+    <div class="row">
+      <div id="content" class="col-xs-12">
+      {{content}}
+      </div>
+    </div>
+
   </div>
 
   </body>
