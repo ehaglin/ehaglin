@@ -7,4 +7,4 @@ Hello, world.
 This is a temporary page. It should be updated with content soon.
 
 ## Scientific Interests
-Biomolecular chemistry and biophysics.
+Biomolecular chemistry and protein biophysics.
